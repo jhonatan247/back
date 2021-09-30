@@ -6,7 +6,7 @@ const {
 } = process.env;
 app.get('/', (req: Request, res: Response) => {
   res.send({
-    message: 'Holaaaaa world',
+    message: 'Hello world',
   });
 });
 if (require.main === module) { // true if file is executed

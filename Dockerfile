@@ -1,9 +1,10 @@
 FROM node:14
 
-RUN mkdir /app
-WORKDIR /app
+RUN mkdir /back
+WORKDIR /back
 COPY package*.json ./
 RUN yarn
+RUN yarn global add nodemon
 COPY . .
 EXPOSE 3000
-CMD [ "yarn", "run:dev" ]
+CMD [ "yarn", "build" ]

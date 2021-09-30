@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "run": "nodemon build/index.js",
+    "run:dev": "nodemon build/index.js",
     "lint": "tsc --noEmit && eslint \"**/*.{ts,js}\" --quiet --fix",
     "test": "jest"
   },
