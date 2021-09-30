@@ -1,0 +1,108 @@
+Idx,CategoryID,CategoryName,BestOfferEnabled,AutoPayEnabled,CategoryLevel,CategoryParentID
+0,20081,Antiques,false,true,1,20081
+1,37903,Antiquities,false,false,2,20081
+2,37908,The Americas,false,false,3,37903
+3,162922,Byzantine,false,false,3,37903
+4,162923,Celtic,false,false,3,37903
+5,37905,Egyptian,false,false,3,37903
+6,162916,Far Eastern,false,false,3,37903
+7,37906,Greek,true,true,3,37903
+8,162917,Holy Land,false,true,3,37903
+9,162918,Islamic,true,false,3,37903
+10,91101,Near Eastern,false,false,3,37903
+11,66834,Neolithic & Paleolithic,true,false,3,37903
+12,37907,Roman,false,true,3,37903
+13,162919,South Italian,true,false,3,37903
+14,162920,Viking,false,true,3,37903
+15,162921,Reproductions,false,false,3,37903
+16,171169,Price Guides & Publications,false,true,3,37903
+17,73464,Other Antiquities,true,false,3,37903
+18,4707,Architectural & Garden,true,true,2,20081
+19,162925,Balusters,false,true,3,4707
+20,162926,Barn Doors,true,false,3,4707
+21,162927,Beams,false,false,3,4707
+22,37909,Ceiling Tins,false,false,3,4707
+23,63516,"Chandeliers, Fixtures, Sconces",false,false,3,4707
+24,162928,Columns & Posts,false,false,3,4707
+25,162929,Corbels,false,false,3,4707
+26,37910,Doors,true,false,3,4707
+27,63517,Finials,false,false,3,4707
+28,63518,Fireplaces & Mantels,false,false,3,4707
+29,4708,Garden,true,false,3,4707
+30,37911,Hardware,false,false,3,4707
+31,37912,Door Bells & Knockers,false,false,4,37911
+32,37914,Door Knobs & Handles,false,false,4,37911
+33,37916,Door Plates & Backplates,false,false,4,37911
+34,162933,Drawer Pulls,true,false,4,37911
+35,162934,Escutcheons & Key Hole Covers,false,false,4,37911
+36,162935,Heating Grates & Vents,true,false,4,37911
+37,37913,Hooks & Brackets,false,true,4,37911
+38,37915,Locks & Keys,false,false,4,37911
+39,162930,Nails,false,true,4,37911
+40,162931,Screws,false,false,4,37911
+41,162932,Switch Plates & Outlet Covers,false,false,4,37911
+42,66637,Other Antique Hardware,false,false,4,37911
+43,162936,Pediments,false,false,3,4707
+44,167948,Plumbing,true,true,3,4707
+45,63519,Signs,false,false,3,4707
+46,151721,Stained Glass Windows,false,false,3,4707
+47,151722,Pre-1900,false,true,4,151721
+48,4771,1900-1940,false,false,4,151721
+49,151723,1940-Now,false,false,4,151721
+50,167947,Unknown,false,true,4,151721
+51,112084,Stair & Carpet Rods,true,true,3,4707
+52,37917,Tiles,false,true,3,4707
+53,37918,Weathervanes & Lightning Rods,false,false,3,4707
+54,63520,"Windows, Sashes & Locks",false,false,3,4707
+55,162937,Reproductions,false,false,3,4707
+56,171170,Price Guides & Publications,false,false,3,4707
+57,1207,Other Antique Architectural,true,true,3,4707
+58,20082,Asian Antiques,false,false,2,20081
+59,162938,Burma,false,false,3,20082
+60,37919,China,true,false,3,20082
+61,162939,Amulets,false,false,4,37919
+62,162940,Armor,false,true,4,37919
+63,37920,Baskets,true,false,4,37919
+64,162941,Bells,true,false,4,37919
+65,37921,Bowls,true,false,4,37919
+66,37922,Boxes,false,false,4,37919
+67,162966,Bracelets,false,false,4,37919
+68,162967,Brush Pots,false,false,4,37919
+69,162968,Brush Washers,false,false,4,37919
+70,37923,Cabinets,true,false,4,37919
+71,37924,Chairs,false,false,4,37919
+72,37925,Chests,false,false,4,37919
+73,162942,Fans,false,false,4,37919
+74,37926,Glasses & Cups,false,false,4,37919
+75,162943,Incense Burners,false,false,4,37919
+76,162944,Ink Stones,false,false,4,37919
+77,162945,Masks,false,true,4,37919
+78,37927,Necklaces & Pendants,false,false,4,37919
+79,38124,Paintings & Scrolls,false,false,4,37919
+80,37928,Plates,false,false,4,37919
+81,37929,Pots,false,false,4,37919
+82,162946,Rings,false,false,4,37919
+83,155352,Robes & Textiles,false,true,4,37919
+84,162947,Seals,false,false,4,37919
+85,37930,Snuff Bottles,true,false,4,37919
+86,60189,Statues,false,false,4,37919
+87,162948,Birds,false,false,5,60189
+88,60190,Buddha,false,false,5,60189
+89,162949,Dogs,true,false,5,60189
+90,60191,Dragons,true,false,5,60189
+91,60192,Elephants,false,false,5,60189
+92,162950,Foo Dogs,false,true,5,60189
+93,60193,Horses,false,true,5,60189
+94,60194,Kwan-yin,false,false,5,60189
+95,60195,"Men, Women & Children",true,true,5,60189
+96,162951,Mice,false,false,5,60189
+97,162952,Monkeys,true,false,5,60189
+98,162953,Oxen,false,false,5,60189
+99,162954,Phoenix,false,false,5,60189
+100,162955,Pigs,false,true,5,60189
+101,162956,Rabbits,false,false,5,60189
+102,162957,Rats,false,false,5,60189
+103,162958,Roosters,true,false,5,60189
+104,162959,Sheep,false,false,5,60189
+105,162960,Snakes,false,false,5,60189
+106,162961,Tigers,false,false,5,60189
