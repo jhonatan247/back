@@ -34,5 +34,8 @@
     "morgan": "^1.10.0",
     "sqlite3": "^5.0.2",
     "webpack-shell-plugin": "https://github.com/cdeutsch/webpack-shell-plugin.git#bee537d"
-  }
+  },
+  "assets": [
+    "./node_modules/sqlite3/lib/binding/**/*"
+    ]
 }

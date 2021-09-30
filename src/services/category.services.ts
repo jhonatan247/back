@@ -1,22 +1,18 @@
-import db from '../database'
+import { Category } from '../interfaces/Category';
+import { Request } from 'express';
 
-interface Category {
-  categoryId: number;
-  name: string;
-  level: number;
-  parentId: number
-}
 
-export function getCategories(id:number, level: string): Category[] {
+export function getCategories(req:Request, id:number, level: number): Category[] {
   try {
-    console.log("LLEGA 3");
-    const sql = "SELECT * FROM categories;";
-    const categories = db.prepare(sql).get();
-    console.log(categories);
-    console.log("LLEGA 4");
+    const db = req.app.get('db');
+
+    const sql = `SELECT * FROM categories
+    WHERE categoryId != ${id} AND level = ${level}
+    AND parentId = ${id}`;
+
+    const categories = db.prepare(sql).all();
     return categories;
   } catch (error) {
-    console.log(error);
-    throw Error("Not found 2");
+    throw Error("Not found");
   }
 }

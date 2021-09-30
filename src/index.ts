@@ -1,9 +1,14 @@
 import express from 'express';
-require('./database');
 import morgan from "morgan";
+import Database from 'better-sqlite3';
+
 import categoryRoutes from "./routes/category.routes";
 
+const db = new Database('./src/database/my_db.db');
 const app = express();
+
+app.set("db", db);
+
 app.use(morgan("tiny"));
 app.use(express.json());
 
