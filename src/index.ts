@@ -1,15 +1,21 @@
-import * as express from 'express';
-import { Request, Response } from 'express';
+import express from 'express';
+require('./database');
+import morgan from "morgan";
+import categoryRoutes from "./routes/category.routes";
+
 const app = express();
+app.use(morgan("tiny"));
+app.use(express.json());
+
 const {
   PORT = process.env.PORT || 3000,
 } = process.env;
-app.get('/', (req: Request, res: Response) => {
-  res.send({
-    message: 'Hello world',
-  });
-});
-if (require.main === module) { // true if file is executed
+
+
+// Routes
+app.use("/", categoryRoutes);
+
+if (require.main === module) {
   app.listen(PORT, () => {
     console.log('server started at http://localhost:'+PORT);
   });
